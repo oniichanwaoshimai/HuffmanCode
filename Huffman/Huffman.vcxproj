@@ -127,14 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Huffman.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="decompresser.cpp" />
+    <ClCompile Include="compresser.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Huffman.h" />
+    <Text Include="text.txt" />
+    <Text Include="ZXC.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="test.txt" />
+    <None Include="text.huff" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

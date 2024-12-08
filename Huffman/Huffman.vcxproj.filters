@@ -15,19 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="compresser.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Huffman.cpp">
+    <ClCompile Include="decompresser.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Huffman.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
+    <Text Include="ZXC.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="text.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="test.txt" />
+    <None Include="text.huff">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
   </ItemGroup>
 </Project>
